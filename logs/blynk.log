@@ -1,0 +1,11 @@
+17:36:45.331 INFO - Using data dir '.\data'
+17:36:45.365 INFO - Region : local. Host : 192.168.80.1.
+17:36:45.683 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+17:36:45.862 INFO - Reports : 0
+17:36:45.862 INFO - Didn't find custom user certificates.
+17:36:45.862 INFO - Didn't find Let's Encrypt certificates.
+17:36:45.862 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+17:36:45.862 WARN - ATTENTION. Server certificate paths (cert : 'C:\Users\Moderator\blynk-render', key : 'C:\Users\Moderator\blynk-render') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+17:36:46.650 INFO - HTTP API and WebSockets server listening at 8080 port.
+17:36:46.650 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+17:36:46.651 INFO - Mqtt hardware server listening at 8440 port.
