@@ -1,6 +1,0 @@
-FROM openjdk:11-jre-slim
-WORKDIR /app
-COPY blynk-server_2.jar server.properties start.sh ./
-RUN chmod +x start.sh
-EXPOSE 8080
-CMD ["./start.sh"]
