@@ -9,4 +9,4 @@ RUN mkdir -p /app/data
 
 EXPOSE 80 443
 
-CMD ["java", "-jar", "blynk-server_2.jar", "-dataFolder", "/app/data"]
+CMD ["java", "-jar", "blynk-server_2.jar", "-dataFolder", "/app/data", "-serverConfig", "/app/server.properties"]
